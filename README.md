@@ -1,28 +1,22 @@
-# trello-clone
+# Vue CLIとfirebaseを使って作るWebアプリのベース
+いつもいつもfirebaseの認証とか忘れるから作った。ここからならコーディングだけでいけるはず
 
 ## Project setup
+firebaseのプロジェクトは作っておいてな
+
 ```
 npm install
+firebase init
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+yarn build
 ```
 
 ### Customize configuration
