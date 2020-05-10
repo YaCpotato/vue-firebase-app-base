@@ -9,6 +9,12 @@ npm install
 firebase init
 ```
 
+### .env.sampleをコピーして自分だけの環境変数ファイルを作ろう！
+```
+cp .envsample .env
+```
+Vue CLIの.envはVUE_APP_~ってしないと認識しなかったりするから気をつけてねん
+
 ### Compiles and hot-reloads for development
 ```
 yarn serve
